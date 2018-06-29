@@ -1,0 +1,72 @@
+﻿<Window x:Class="AcrylicContextMenu_WPF.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:AcrylicContextMenu_WPF"
+		mc:Ignorable="d"
+		Title="MainWindow" Height="450" Width="800">
+	<Grid>
+		<Grid.Background>
+			<ImageBrush ImageSource="/Resources/DSC02124.jpg"
+						Stretch="UniformToFill"/>
+		</Grid.Background>
+
+		<Border Width="50" Height="50">
+			<Border.Background>
+				<SolidColorBrush Color="{StaticResource AccentColor}"/>
+			</Border.Background>
+			<Border.ContextMenu>
+				<ContextMenu>
+					<MenuItem InputGestureText="Ctrl + =" Header="Add">
+						<MenuItem.Icon>
+							<Image Source="/Resources/Add_64x64.png" Margin="3"/>
+						</MenuItem.Icon>
+					</MenuItem>
+					<MenuItem InputGestureText="Ctrl + =" Header="Add">
+						<MenuItem.Icon>
+							<Image Source="/Resources/Add_64x64.png" Margin="3"/>
+						</MenuItem.Icon>
+					</MenuItem>
+					<MenuItem InputGestureText="Ctrl + =" Header="Add">
+						<MenuItem.Icon>
+							<Image Source="/Resources/Add_64x64.png" Margin="3"/>
+						</MenuItem.Icon>
+					</MenuItem>
+					<MenuItem InputGestureText="Ctrl + =" Header="Add">
+						<MenuItem.Icon>
+							<Image Source="/Resources/Add_64x64.png" Margin="3"/>
+						</MenuItem.Icon>
+					</MenuItem>
+					<Separator/>
+					<MenuItem InputGestureText="Ctrl + =" Header="Add">
+						<MenuItem.Icon>
+							<Image Source="/Resources/Add_64x64.png" Margin="3"/>
+						</MenuItem.Icon>
+					</MenuItem>
+					<MenuItem InputGestureText="Ctrl + =" Header="Add">
+						<MenuItem.Icon>
+							<Image Source="/Resources/Add_64x64.png" Margin="3"/>
+						</MenuItem.Icon>
+					</MenuItem>
+					<MenuItem InputGestureText="Ctrl + =" Header="Add">
+						<MenuItem.Icon>
+							<Image Source="/Resources/Add_64x64.png" Margin="3"/>
+						</MenuItem.Icon>
+					</MenuItem>
+					<MenuItem InputGestureText="Ctrl + =" Header="Add">
+						<MenuItem.Icon>
+							<Image Source="/Resources/Add_64x64.png" Margin="3"/>
+						</MenuItem.Icon>
+					</MenuItem>
+					<MenuItem InputGestureText="Ctrl + =" Header="Add">
+						<MenuItem.Icon>
+							<Image Source="/Resources/Add_64x64.png" Margin="3"/>
+						</MenuItem.Icon>
+					</MenuItem>
+				</ContextMenu>
+			</Border.ContextMenu>
+		</Border>
+		
+	</Grid>
+</Window>
