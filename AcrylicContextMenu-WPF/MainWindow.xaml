@@ -19,10 +19,12 @@
 			<Border.ContextMenu>
 				<ContextMenu>
 					<MenuItem InputGestureText="Ctrl + =" Header="Add">
-						<MenuItem.Icon>
-							<Image Source="/Resources/Add_64x64.png" Margin="3"/>
-						</MenuItem.Icon>
-					</MenuItem>
+                        <MenuItem Header="Sub-Item 1"/>
+                        <MenuItem Header="Sub-Item 2"/>
+                        <MenuItem Header="Sub-Item 3"/>
+                        <MenuItem Header="Sub-Item 4"/>
+                        <MenuItem Header="Sub-Item 5"/>
+                    </MenuItem>
 					<MenuItem InputGestureText="Ctrl + =" Header="Add">
 						<MenuItem.Icon>
 							<Image Source="/Resources/Add_64x64.png" Margin="3"/>
